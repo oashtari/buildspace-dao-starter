@@ -53,7 +53,7 @@ const App = () => {
     })
     .catch((err) => {
       setHasClaimedNFT(false);
-      console.error("failed to nft balance", error)
+      console.error("failed to nft balance", err)
     });
   }, [address]);
 
